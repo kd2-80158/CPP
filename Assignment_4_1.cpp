@@ -97,6 +97,12 @@ int main()
     {
         t[i]->printTime();
     }
+     for(int i=0;i<n;i++)
+        {
+            delete t[i];
+            
+        }
+        delete[] t;
 
     return 0;
 }
