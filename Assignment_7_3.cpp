@@ -345,6 +345,11 @@ int main()
             break;
         }
     }
+    //deallocating the dynamic memory
+    for(int i=0; i<index;i++)
+    {
+        delete emp[i];
+    }
  
 
     return 0;
